@@ -2,6 +2,7 @@ body{
     color:gold;
     background:black;
     margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header{
@@ -10,7 +11,7 @@ header{
     font-size: 32px;
     color: rgb(42, 216, 228);
 }
-section {
+.chamada {
     background: rgb(255, 0, 0);
 padding-botton: 80px;
 padding-top: 80px;
@@ -20,8 +21,25 @@ justify-content: center;
 .chamada-texto {
     margin-right: 5%;
 }
-h1{font-size: 40px;
+h1{font-size: 82px;
 
 }]
-p{font-size: 20;
+p{font-size: 41;
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+    margin-top: 50px;
 }
